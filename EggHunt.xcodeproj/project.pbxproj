@@ -15,6 +15,9 @@
 		17E734331E82AC690056706E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E734311E82AC690056706E /* LaunchScreen.storyboard */; };
 		17E7343E1E82AC690056706E /* EggHuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E7343D1E82AC690056706E /* EggHuntTests.swift */; };
 		17E734491E82AC690056706E /* EggHuntUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E734481E82AC690056706E /* EggHuntUITests.swift */; };
+		17E734581E82AE4C0056706E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E734571E82AE4C0056706E /* MapKit.framework */; };
+		17E7345A1E82C1390056706E /* EggBasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E734591E82C1390056706E /* EggBasketViewController.swift */; };
+		17E7345C1E82C42D0056706E /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E7345B1E82C42D0056706E /* CoreDataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		17E734441E82AC690056706E /* EggHuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggHuntUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E734481E82AC690056706E /* EggHuntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggHuntUITests.swift; sourceTree = "<group>"; };
 		17E7344A1E82AC690056706E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E734571E82AE4C0056706E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		17E734591E82C1390056706E /* EggBasketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggBasketViewController.swift; sourceTree = "<group>"; };
+		17E7345B1E82C42D0056706E /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E734581E82AE4C0056706E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +90,7 @@
 				17E7343C1E82AC690056706E /* EggHuntTests */,
 				17E734471E82AC690056706E /* EggHuntUITests */,
 				17E734231E82AC690056706E /* Products */,
+				17E734561E82AE4C0056706E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +109,8 @@
 			children = (
 				17E734251E82AC690056706E /* AppDelegate.swift */,
 				17E734271E82AC690056706E /* ViewController.swift */,
+				17E734591E82C1390056706E /* EggBasketViewController.swift */,
+				17E7345B1E82C42D0056706E /* CoreDataHelper.swift */,
 				17E734291E82AC690056706E /* Main.storyboard */,
 				17E7342F1E82AC690056706E /* Assets.xcassets */,
 				17E734311E82AC690056706E /* LaunchScreen.storyboard */,
@@ -126,6 +136,14 @@
 				17E7344A1E82AC690056706E /* Info.plist */,
 			);
 			path = EggHuntUITests;
+			sourceTree = "<group>";
+		};
+		17E734561E82AE4C0056706E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17E734571E82AE4C0056706E /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E7345C1E82C42D0056706E /* CoreDataHelper.swift in Sources */,
+				17E7345A1E82C1390056706E /* EggBasketViewController.swift in Sources */,
 				17E734281E82AC690056706E /* ViewController.swift in Sources */,
 				17E7342E1E82AC690056706E /* EggHunt.xcdatamodeld in Sources */,
 				17E734261E82AC690056706E /* AppDelegate.swift in Sources */,
