@@ -43,7 +43,7 @@
                                 </constraints>
                                 <state key="normal" image="easter-egg"/>
                                 <connections>
-                                    <segue destination="gDm-Ku-0FX" kind="presentation" id="iI2-LV-5n9"/>
+                                    <segue destination="gDm-Ku-0FX" kind="presentation" identifier="basketSegue" id="iI2-LV-5n9"/>
                                 </connections>
                             </button>
                         </subviews>

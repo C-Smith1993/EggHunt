@@ -10,8 +10,9 @@ import UIKit
 import CoreData
 
 func addAllEggs() {
-    createEgg(name: "Chicken", imageName: "010-chicken")
+    createEgg(name: "Chick", imageName: "010-chicken")
     createEgg(name: "Yellow egg", imageName: "yellowEgg")
+    createEgg(name: "Classic egg", imageName: "011-easter-egg")
     (UIApplication.shared.delegate as! AppDelegate).saveContext()
 }
 
@@ -33,9 +34,7 @@ func getAllEggs() -> [Egg] {
             addAllEggs()
             return getAllEggs()
         }
-        
         return eggs
-        
     } catch {}
     return []
 }

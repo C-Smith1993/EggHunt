@@ -18,6 +18,7 @@
 		17E734581E82AE4C0056706E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E734571E82AE4C0056706E /* MapKit.framework */; };
 		17E7345A1E82C1390056706E /* EggBasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E734591E82C1390056706E /* EggBasketViewController.swift */; };
 		17E7345C1E82C42D0056706E /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E7345B1E82C42D0056706E /* CoreDataHelper.swift */; };
+		17E8985A1E844C79005D69CC /* EggAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E898591E844C79005D69CC /* EggAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		17E734571E82AE4C0056706E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		17E734591E82C1390056706E /* EggBasketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggBasketViewController.swift; sourceTree = "<group>"; };
 		17E7345B1E82C42D0056706E /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		17E898591E844C79005D69CC /* EggAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				17E734271E82AC690056706E /* ViewController.swift */,
 				17E734591E82C1390056706E /* EggBasketViewController.swift */,
 				17E7345B1E82C42D0056706E /* CoreDataHelper.swift */,
+				17E898591E844C79005D69CC /* EggAnnotation.swift */,
 				17E734291E82AC690056706E /* Main.storyboard */,
 				17E7342F1E82AC690056706E /* Assets.xcassets */,
 				17E734311E82AC690056706E /* LaunchScreen.storyboard */,
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E8985A1E844C79005D69CC /* EggAnnotation.swift in Sources */,
 				17E7345C1E82C42D0056706E /* CoreDataHelper.swift in Sources */,
 				17E7345A1E82C1390056706E /* EggBasketViewController.swift in Sources */,
 				17E734281E82AC690056706E /* ViewController.swift in Sources */,
@@ -536,6 +540,7 @@
 				17E7344F1E82AC690056706E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17E734501E82AC690056706E /* Build configuration list for PBXNativeTarget "EggHuntTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +549,7 @@
 				17E734521E82AC690056706E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17E734531E82AC690056706E /* Build configuration list for PBXNativeTarget "EggHuntUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +558,7 @@
 				17E734551E82AC690056706E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
